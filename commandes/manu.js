@@ -26,24 +26,16 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     let infoMsg = `🖐🏻 *Hello ${nomAuteurMessage}!* 🖐🏻
 ━━━━━━━━━━━━━━━━━━━━
-🚀 *BOT NAME:* 𝗗𝗠𝗟-𝗠𝗗  
-━━━━━━━━━━━━━━━━━━━━
+🚀 *BOT NAME:* BWB-X𝗠𝗗  
 🌍 *SYSTEM INFO:*
 💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-━━━━━━━━━━━━━━━━━━━━
 ⚙️ *BOT STATUS:*
 🔴 ᴍᴏᴅᴇ: *${mode}*
 💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 ⏳ ᴛɪᴍᴇ: ${temps}
 📆 ᴅᴀᴛᴇ: ${date}
-━━━━━━━━━━━━━━━━━━━━
-🔰 *𝐂𝐇𝐀𝐍𝐍𝐄𝐋𝐒 & 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐎𝐍𝐒:*  
-  
-🔰 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋:  
-🔗 https://whatsapp.com/channel/0029Vb2hoPpDZ4Lb3mSkVI3C    
-━━━━━━━━━━━━━━━━━━━━
 ${readMore}
-📜 *COMMANDS MENU* 📜
+📜 *BWB MENU* 📜
 ━━━━━━━━━━━━━━━━━━━━\n`;
 
     let menuMsg = ``;
@@ -56,9 +48,9 @@ ${readMore}
         menuMsg += `━━━━━━━━━━━━━━━━━━━━\n`;
     }
 
-    menuMsg += `🛡 *DML-MD BOT - DEVELOPED BY DAUDY* 🛡`;
+    menuMsg += `🛡 *DML-MD BOT - DEVELOPED BY PRINCE* 🛡`;
 
-    let imageUrl = "https://files.catbox.moe/vcdwmp.jpg";
+    let imageUrl = "https://files.catbox.moe/o7q56s.jpg";
 
     try {
         zk.sendMessage(dest, { 
