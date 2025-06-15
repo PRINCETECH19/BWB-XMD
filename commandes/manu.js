@@ -35,20 +35,20 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ⏳ ᴛɪᴍᴇ: ${temps}
 📆 ᴅᴀᴛᴇ: ${date}
 ${readMore}
-📜 *BWB MENU* 📜
+  *BWB MENU* 
 ━━━━━━━━━━━━━━━━━━━━\n`;
 
     let menuMsg = ``;
 
     for (const cat in coms) {
-        menuMsg += `🔰 *${cat.toUpperCase()}* 🔰\n`;
+        menuMsg += ` *${cat.toUpperCase()}* \n`;
         for (const cmd of coms[cat]) {
             menuMsg += `   🔴 ${cmd}\n`;
         }
         menuMsg += `━━━━━━━━━━━━━━━━━━━━\n`;
     }
 
-    menuMsg += `🛡 *DML-MD BOT - DEVELOPED BY PRINCE* 🛡`;
+    menuMsg += ` *BWB-XMD BOT - DEVELOPED BY PRINCE* 🛡`;
 
     let imageUrl = "https://files.catbox.moe/o7q56s.jpg";
 
@@ -56,7 +56,7 @@ ${readMore}
         zk.sendMessage(dest, { 
             image: { url: imageUrl }, 
             caption: infoMsg + menuMsg, 
-            footer: "© DML-MD" 
+            footer: " BWB-XMD" 
         }, { quoted: ms });
     } catch (e) {
         console.log("🥵 Menu error: " + e);
