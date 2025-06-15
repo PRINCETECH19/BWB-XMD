@@ -28,7 +28,7 @@ zokou(
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
                 image: {
-                  url: 'https://files.catbox.moe/r3x8bb.jpg',
+                  url: 'https://files.catbox.moe/x3zu9v.jpg',
                 },
               }, { upload: zk.waUploadToServer })),
               title: '',
@@ -84,7 +84,7 @@ zokou(
     
     try {
     let texte = "boutons message";
-    let lien = "https://files.catbox.moe/r3x8bb.jpg";
+    let lien = "https://files.catbox.moe/x3zu9v.jpg";
     let buttons = [
                 {
                   name: 'quick_reply',
