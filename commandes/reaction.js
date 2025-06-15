@@ -91,7 +91,7 @@ generateReactionCommand("wave", "👋");
 generateReactionCommand("highfive");
 generateReactionCommand("handhold");
 generateReactionCommand("nom","👅" );
-generateReactionCommand("bite", "🦷");
+generateReactionCommand("bite", "🌚");
 generateReactionCommand("glomp", "🤗");
 generateReactionCommand("slap", "👋");
 generateReactionCommand("kill", "💀");
