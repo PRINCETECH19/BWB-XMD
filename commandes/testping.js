@@ -8,17 +8,16 @@ zokou(
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/z5g58c.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/z5g58c.jpg "; // Small thumbnail URL
+    const fullImageUrl = "https://files.catbox.moe/x3zu9v.jpg"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/x3zu9v.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/zsojj5.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
-    try {
       // Send the custom message
       await zk.sendMessage(dest, {
         image: { url: fullImageUrl }, // Full image displayed at the top
-        caption: `RAHEEM-XMD ALWAYS ALIVE ✌️😎\n\n✨ Contact: ${contactName}\n🧎 [Visit Channel](${sourceUrl})`,
+        caption: `BWB-XMD ALWAYS ALIVE ✌️😎\n\n✨ Contact: ${contactName}\n🧎 [Visit Channel](${sourceUrl})`,
         audio: { url: randomAudio }, // Voice note URL
         mimetype: "audio/mpeg", // Correct MIME type for audio
         ptt: true, // Send as a voice note
