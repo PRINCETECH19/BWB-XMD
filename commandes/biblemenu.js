@@ -131,7 +131,7 @@ let menuMsg = `
                     title: "*BWB-XMD* HOLY BIBLE LIST",
                     body: "Live with God my friends you don't know your tomorrow",
                     thumbnailUrl: "",
-                    sourceUrl: "",
+                    sourceUrl: "https://files.catbox.moe/ssw18i.jpg",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
