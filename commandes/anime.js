@@ -139,7 +139,7 @@ zokou({
     imdbInfo += "📆Release    : " + imdbData.Released + "\n";
     imdbInfo += "⏳Runtime     : " + imdbData.Runtime + "\n";
     imdbInfo += "🌀Genre      : " + imdbData.Genre + "\n";
-    imdbInfo += "👨🏻‍💻Director : " + imdbData.Director + "\n";
+    imdbInfo += "🌚Director : " + imdbData.Director + "\n";
     imdbInfo += "✍writers : " + imdbData.Writer + "\n";
     imdbInfo += "👨actors  : " + imdbData.Actors + "\n";
     imdbInfo += "📃Synopsis  : " + imdbData.Plot + "\n";
