@@ -36,7 +36,7 @@ const date = moment().format('DD/MM/YYYY');
 let infoMsg =  `
 DML MD
 
-*BUGMENU*
+*BWB BUGMENU*
 bug
 crash
 loccrush
@@ -65,7 +65,7 @@ let menuMsg = `
   
 
 
-> ©DML MD
+> BWB XMD
 `;
 
    var lien = mybotpic();
@@ -82,7 +82,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Dmlmd*, déveloper Dml Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Bwb*, déveloper prince Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
