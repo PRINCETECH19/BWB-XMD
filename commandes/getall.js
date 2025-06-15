@@ -18,9 +18,9 @@ ezra({ nomCom: "getallmembers", categorie: 'Group', reaction: "📣" }, async (d
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
   let tag = `========================\n  
-        🌟 *DML-MD GROUP MEMBERS GIDS* 🌟
+        🌟 *BWB-XMD GROUP MEMBERS GIDS* 🌟
 ========================\n
-> regards DML-TECH®\n\n`;
+> regards BWB-TECH\n\n`;
 
   const emoji = ['🦴', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', '🙏🏿', '⛔️', '$', '😟', '🥵', '🐅'];
   const randomEmoji = emoji[Math.floor(Math.random() * emoji.length)];
@@ -57,7 +57,7 @@ ezra({ nomCom: "tagadmin", categorie: 'Group', reaction: "📣" }, async (dest, 
   let adminsGroupe = membresGroupe.filter(membre => membre.isAdmin);
 
   let tag = `========================\n  
-        🌟 *DML-MD* 🌟
+        🌟 *BWB-XMD* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
