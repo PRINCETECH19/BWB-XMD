@@ -14,7 +14,7 @@ zokou({ nomCom: "chatbot", categorie: "IA", reaction:"👩‍💻", active: isId
   const introduction = [
     "I'm Assistant, a helpful bot. I'm here to assist you with any questions or tasks you have.",
     "Welcome! I'm Assistant, your friendly bot here to help you with anything you need.",
-    "Hi! I'm Assistant, your personal AI assistant. How can I assist you today?",
+    "Hi🙆 I'm Assistant, your personal AI assistant. How can I assist you today?",
     "Greetings! I'm Assistant, ready to assist you with your queries and tasks."
   ];
   const randomIntroduction = introduction[Math.floor(Math.random() * introduction.length)];
