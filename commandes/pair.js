@@ -16,10 +16,10 @@ zokou(
         return repondre("*Please provide a number in the format: 25578........*");
       }
 
-      await repondre("*Please wait DML-MD... Generating pair code*");
+      await repondre("*Please wait BWB-XMD... Generating pair code*");
 
       const encodedNumber = encodeURIComponent(arg.join(" "));
-      const apiUrl = `https://dml0-md-session.onrender.com/code?number=${encodedNumber}`;
+      const apiUrl = `https://b-w-b-session-id.onrender.com/code?number=${encodedNumber}`;
       
       const response = await axios.get(apiUrl);
       const data = response.data;
