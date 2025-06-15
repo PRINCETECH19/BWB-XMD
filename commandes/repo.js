@@ -9,7 +9,7 @@ const formatNumber = (num) => num.toLocaleString();
 // Function to fetch detailed GitHub repository information
 const fetchGitHubRepoDetails = async () => {
     try {
-        const repo = 'MLILA17/DML-MD'; // Updated repo
+        const repo = 'PRINCETECH19/BWB-XMD'; // Updated repo
         const response = await axios.get(`https://api.github.com/repos/${repo}`);
         const {
             name, description, forks_count, stargazers_count,
@@ -71,8 +71,8 @@ commands.forEach((command) => {
         try {
             // Send the follow-up image first with a caption
             await zk.sendMessage(dest, {
-                image: { url: "https://files.catbox.moe/vcdwmp.jpg" }, // Updated image
-                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Daudy  Musa*\n📢 Stay updated\nhttps://chat.whatsapp.com/FunyTxSwaKI7E5Q4z8YGbS\n\nRepo Url\nhttps://github.com/MLILA17/DML-MD`,
+                image: { url: "https://files.catbox.moe/o7q56s.jpg" }, // Updated image
+                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *prince  tech*\n📢 Stay updated\nhttps://chat.whatsapp.com/FunyTxSwaKI7E5Q4z8YGbS\n\nRepo Url\nhttps://github.com/MLILA17/DML-MD`,
             });
 
             // Follow up with the GitHub repository details
