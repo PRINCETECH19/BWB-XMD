@@ -34,7 +34,7 @@ zokou({
 
     // Show help if no arguments
     return repondre(
-      `🛡️ *Anti-tag Commands:*\n` +
+      `😡 *Anti-tag Commands:*\n` +
       `• *${s.PREFIXE}antitag on* - Enable protection\n` +
       `• *${s.PREFIXE}antitag off* - Disable protection\n` +
       `• *${s.PREFIXE}antitag status* - Check current status`
